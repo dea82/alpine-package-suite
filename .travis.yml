@@ -1,0 +1,13 @@
+language: generic
+
+sudo: enabled
+
+services:
+  - docker
+
+install: true
+
+script: 
+  - make build-host
+  - make start-host
+  - make stop-host
