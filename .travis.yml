@@ -11,3 +11,4 @@ script:
   - make build-host
   - make start-host
   - make stop-host
+  - make build-builder

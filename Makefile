@@ -9,3 +9,7 @@ start-host: build-host
 .PHONY: stop-host
 stop-host:
 	docker container stop alpine-apk-server
+
+.PHONY: build-builder
+build-builder:
+	docker build -t alpine-package-builder builder/
