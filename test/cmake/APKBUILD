@@ -1,8 +1,6 @@
-# Contributor: Valery Kartel <valery.kartel@gmail.com>
-# Maintainer: Natanael Copa <ncopa@alpinelinux.org>
 pkgname=cmake
-pkgver=3.11.1
-pkgrel=2
+pkgver=3.11.2
+pkgrel=1
 pkgdesc="Cross-platform, open-source make system"
 url="http://www.cmake.org"
 arch="all"
@@ -68,4 +66,4 @@ bashcomp() {
                 "$subpkgdir"/usr/share/bash-completion/
 }
 
-sha512sums="d5df043453a9f9478a0e165ded6ce247a7b495fe8c4e56905bb523889a016fb8eb769455c2c2c5f6118c61bcffafe4e3e219ad99b2a85918323c2155f10089d8  cmake-3.11.1.tar.gz"
+sha512sums="d5df043453a9f9478a0e165ded6ce247a7b495fe8c4e56905bb523889a016fb8eb769455c2c2c5f6118c61bcffafe4e3e219ad99b2a85918323c2155f10089d8  cmake-3.11.2.tar.gz"
