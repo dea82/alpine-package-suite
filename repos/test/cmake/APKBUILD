@@ -1,5 +1,5 @@
 pkgname=cmake
-pkgver=3.11.2
+pkgver=3.11.3
 pkgrel=1
 pkgdesc="Cross-platform, open-source make system"
 url="http://www.cmake.org"
@@ -66,4 +66,4 @@ bashcomp() {
                 "$subpkgdir"/usr/share/bash-completion/
 }
 
-sha512sums="d5df043453a9f9478a0e165ded6ce247a7b495fe8c4e56905bb523889a016fb8eb769455c2c2c5f6118c61bcffafe4e3e219ad99b2a85918323c2155f10089d8  cmake-3.11.2.tar.gz"
+sha512sums="a91301bfb51bdf6a6c6ea71a26f05b6017eb375a4fc9c14934a83f2231d7af758bc67d8d9656111d1de56ec3df41dbcd61cb3cf50471bc0901f5bcccdf5267dc  cmake-3.11.3.tar.gz"

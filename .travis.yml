@@ -10,4 +10,5 @@ before_install:
 - echo $encrypt_key | gpg --passphrase-fd 0 config.cfg.gpg
 - echo $encrypt_key | gpg --passphrase-fd 0 deploy-key.gpg
 script:
-- make start
+- ./apb.sh start
+- ./apb.sh build -a
